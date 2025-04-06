@@ -10,7 +10,7 @@ function calculate(){
     try {
         var expression = resultField.val();
         if (expression) {
-            if (expression.includes('%')) {
+            if (expression.includes('%')){
                 let numbers = expression.split('%');
                 if (numbers.length === 2) {
                     let num1 = parseFloat(numbers[0]);
